@@ -1,7 +1,7 @@
 
 # Python Complete
 
-This course has been prepared based on the [Outline by the GFU](https://www.gfu.net/seminare-schulungen-kurse/python_sk90/python_complete_s2887.html)
+The material has been prepared based on the [Outline by the GFU](https://www.gfu.net/seminare-schulungen-kurse/python_sk90/python_complete_s2887.html)
 
 ## Exercises
 
@@ -17,7 +17,6 @@ This course has been prepared based on the [Outline by the GFU](https://www.gfu.
 * Object-Oriented Programming
 * Automated Testing
 * Exception Handling
-* Debugging
 
 #### Day 3
 
