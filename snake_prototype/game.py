@@ -1,18 +1,18 @@
-
 from typing import Tuple, Iterable
 import random
 
 
-SNAKE = 'O'
-HEAD = 'G'
-WALL = '#'
-FOOD = '*'
+SNAKE = "O"
+HEAD = "G"
+WALL = "#"
+FOOD = "*"
 
 UP, DOWN, LEFT, RIGHT = range(1, 5)
 
 
 class Snake:
     """A snake with a tail that grows"""
+
     # this class contains 3 bugs
     def __init__(self, head, direction=RIGHT):
         self.head = 5, 5
@@ -45,7 +45,6 @@ class Snake:
 
 
 class SnakeGame:
-
     def __init__(self, size: Tuple[int, int], start_pos: Tuple[int, int]):
         self.snake = Snake(head=start_pos)
         self._size = size
@@ -57,23 +56,19 @@ class SnakeGame:
     def __repr__(self) -> str:
         """returns a string representation for convenience and debugging"""
         symbols = {(x, y): char for x, y, char in self.get_symbols()}
-        return "".join([
-            ("".join([
-                symbols.get((x, y), " ")
-                for x in range(self.xsize)
-            ]) + "\n")
-            for y in range(self._size[1])
-        ]).strip()
-        
+        return "".join(
+            [
+                ("".join([symbols.get((x, y), " ") for x in range(self.xsize)]) + "\n")
+                for y in range(self._size[1])
+            ]
+        ).strip()
+
     @property
     def xsize(self) -> int:
         return self._size[0]
 
     def add_random_food(self) -> None:
-        x, y = (
-            random.randint(1, self.xsize - 2),
-            random.randint(1, self._size[1] - 2)
-        )
+        x, y = (random.randint(1, self.xsize - 2), random.randint(1, self._size[1] - 2))
         self._food = x, y
 
     def get_symbols(self) -> Iterable[Tuple[int, int]]:
@@ -105,12 +100,8 @@ class SnakeGame:
             self.running = False
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # test code
-    game = SnakeGame(
-        size=(10, 10),
-        start_pos=(5, 5)
-        )
+    game = SnakeGame(size=(10, 10), start_pos=(5, 5))
     print(game)
     print(game.get_symbols)
-    
