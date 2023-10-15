@@ -1,6 +1,8 @@
 
 # Data Structures and Functions
 
+![](data_structure.png)
+
 ## Define your own Types
 
 Look at the type annotations in the class `game.SnakeGame`.
@@ -29,8 +31,10 @@ and replace the occurence of the integer constants `UP`, `DOWN` etc. wherever th
 
 ## Extract a function
 
-Find a piece of almost duplicate code in `game.py`.
-Move the redundant piece into a function.
+The code that calculates the wall positions in `game.py` is almost duplicate.
+Move the redundant piece into a function with the following signature:
+
+    def get_walls(size: Position) -> Iterable[Position]:
 
 ## Types for a high score list
 

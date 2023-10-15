@@ -1,6 +1,8 @@
 
 # Python Basics
 
+![](snake.png)
+
 In this course, we will work with a small terminal-based Snake game.
 During the exercise, you will improve the program in small steps to develop it into
 a clean, well-tested and maintainable piece of software.
@@ -18,9 +20,7 @@ Go to the `snake_prototype/` folder and run the snake game with
 
     python main.py
     
-You should see a graphical scene:
-
-![](snake.png)
+You should see a graphical scene as in the picture above.
 
 Try to control the snake with the keys `AWSD`.
 

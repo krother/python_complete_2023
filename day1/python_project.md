@@ -1,6 +1,8 @@
 
 # Setting up a Python Project
 
+![](packaging.png)
+
 In this exercise, you create a structure to install and deploy your Python program easily.
 
 ## Package

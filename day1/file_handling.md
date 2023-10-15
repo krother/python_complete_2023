@@ -1,6 +1,8 @@
 
 # File Handling
 
+![](files.png)
+
 ## Load a High Score List
 
 At the end of the game, a high score list should be printed on the console.
