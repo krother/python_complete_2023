@@ -19,9 +19,9 @@ The material has been prepared based on the [Outline by the GFU](https://www.gfu
 
 #### Day 2
 
-* Object-Oriented Programming
-* Automated Testing
-* Exception Handling
+* [Automated Testing](day2/automated_tests.md)
+* [Object-Oriented Programming](day2/oop.md)
+* [Exception Handling](day2/exception_handling.md)
 
 #### Day 3
 
@@ -39,8 +39,10 @@ The material has been prepared based on the [Outline by the GFU](https://www.gfu
 
 ## Further Reading
 
+* [Python Cheat Sheet](https://www.pythoncheatsheet.org/)
 * [Python Basics Tutorial](https://python-basics-tutorial.readthedocs.io/en/latest/)
 * [Python Examples and Exercises on Academis.eu](http://www.academis.eu/)
+* [Testing](https://python-basics-tutorial.readthedocs.io/en/latest/test/pytest.html)
 
 ## Contact
 
