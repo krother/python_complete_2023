@@ -48,5 +48,9 @@ See [Python Package Examples](https://github.com/krother/Python3_Package_Example
 
 ## Environment Variable
 
-Use an environment variable to configure the name of the high score file
-  - configuration through env variables
+Use an environment variable to configure the name of the high score file.
+Include the following code:
+
+    import os
+
+    high_score_filename = os.environ.get("SNAKE_HIGHSCORE_FILE")

@@ -11,6 +11,11 @@ The material has been prepared based on the [Outline by the GFU](https://www.gfu
 * [Data Structures and Functions](day1/data_structures_functions.md)
 * [File Handling](day1/file_handling.md)
 * [Setting up a Python Project](day1/python_project.md)
+* [builtin functions](day1/builtin_funcs.md)
+* [function example](day1/function.py)
+* [file read/write example](day1/files.py)
+* [code after day 1](snake/day1)
+
 
 #### Day 2
 

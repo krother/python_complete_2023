@@ -27,7 +27,7 @@ Adjust all import statements accordingly.
 ## Virtural Environment
 
 Create a virtual environment for the project.
-You find an instruction to create an environment via `conda` on [academis.eu](http://www.academis.eu/software_engineering)
+You find an instruction to create an environment via `conda` on [academis.eu](http://www.academis.eu/software_engineering/virtualenv.html)
 
 ## Requirements
 
