@@ -1,0 +1,16 @@
+version: '3'
+services:
+
+  apiserver:
+    build: server
+    volumes:
+    - ./server/:/app
+    ports:
+    - 8000:8000
+
+  authclient:
+    build: client/
+    volumes:
+    - ./client/:/app
+    depends_on:
+    - apiserver

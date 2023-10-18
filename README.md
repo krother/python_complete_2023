@@ -25,9 +25,9 @@ The material has been prepared based on the [Outline by the GFU](https://www.gfu
 
 #### Day 3
 
-* Useful Python libraries
-* Leftovers
-* Summary and Feedback
+* [Useful Python libraries](https://github.com/krother/python3_package_examples)
+* [HTTP with Authentication](http_auth/)
+* [Feedback Survey](https://ratings.gfu.cloud/form.html?h=eb119734e7e99831497a42ec3eaf72245679d15af563d5ef031186a19df9a209&type=trainer)
 
 ----
 
