@@ -5,7 +5,9 @@ Installation:
 
 * open a terminal (Ctrl+R + cmd)
 * check your pip version with `python -m pip --version` , should be >=19.3
-* intall with `python -m pip install opencv-contrib-python`
+* install with:
+
+  python -m pip install opencv-contrib-python
 
 also see: https://pypi.org/project/opencv-python/
 """

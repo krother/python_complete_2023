@@ -22,6 +22,8 @@ The material has been prepared based on the [Outline by the GFU](https://www.gfu
 * [Automated Testing](day2/automated_tests.md)
 * [Object-Oriented Programming](day2/oop.md)
 * [Exception Handling](day2/exception_handling.md)
+* [QA Strategies](qa_strategies.md)
+* [File Handling](file_manager/file_manager.py)
 
 #### Day 3
 

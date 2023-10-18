@@ -111,4 +111,4 @@ if __name__ == "__main__":
     # test code
     game = SnakeGame(size=(10, 10), start_pos=(5, 5))
     print(game)
-    print(game.get_symbols)
+    print(game.get_symbols())
