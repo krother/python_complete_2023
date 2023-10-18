@@ -4,6 +4,7 @@ Authentication via bearer token using requests
 Source: https://stackoverflow.com/questions/29931671/making-an-api-call-in-python-with-an-api-that-requires-a-bearer-token
 """
 from pprint import pprint
+import os
 import sys
 import time
 
@@ -13,9 +14,14 @@ import requests
 time.sleep(3)
 
 USERNAME = "johndoe"
-PASSWORD = "secret"
+PASSWORD = os.environ.get("API_PASSWORD")
 
-URL = "http://" + sys.argv[1]
+# how to remove a password from code?
+# 1: input("enter your password:")  # TODO: remove this!!!
+# 2: open('mypassword.txt').read().strip()
+# 3: os.environ.get("API_PASSWORD")
+
+URL = "http://" + sys.argv[1]  # reads a command-line argument
 
 # key + secret that the server might need
 # (not used by example server)

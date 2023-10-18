@@ -2,7 +2,7 @@ version: '3'
 services:
 
   apiserver:
-    build: server
+    build: server/
     volumes:
     - ./server/:/app
     ports:
@@ -14,3 +14,5 @@ services:
     - ./client/:/app
     depends_on:
     - apiserver
+    environment:
+    - API_PASSWORD=${API_PASSWORD}

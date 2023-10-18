@@ -24,7 +24,7 @@ Set `SECRET_KEY` in `server/app.py`
 
 Run:
 
-    python -m pip install -r server/requirements
+    python -m pip install -r server/requirements.txt
 
 
 ## 5. Run the server
@@ -40,7 +40,16 @@ Go to the Swagger page at `http://localhost:8000/docs`
 You can manually authenticate with username `johndoe` and password `secret`.
 (A hashed password is stored in `app.py`).
 
-## 7. Run the client
+## 7. Set an environment variable
+
+Configure the environment variable `API_PASSWORD` to contain the value `secret`
+- on Windows in environment settings, on Unix in your `.bashrc` file with:
+
+    export API_PASSWORD=secret
+
+Continue from a new terminal session after this step.
+
+## 8. Run the client
 
 Also install Python requirements in the `client/` folder.
 
@@ -48,7 +57,7 @@ Then run requests against the site with:
 
     python send_auth.py localhost:8000
 
-## 8. Run with Docker
+## 9. Run with Docker
 
 Easy. Go to the main folder and type:
 
