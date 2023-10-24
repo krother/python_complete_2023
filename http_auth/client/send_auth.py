@@ -61,19 +61,9 @@ headersAPI = {
     'Authorization': 'Bearer '+j['access_token'],
 }
 
-### Usage of parameters defined in your API
-params = (
-    ('offset', '0'),
-    ('limit', '20'),
-)
-
-# sample API call with authentication
-response = requests.get(f'{URL}/users/me', headers=headersAPI, verify=True)
-pprint(response.json())
-
 
 # call fails without authentication
-response = requests.get(f'{URL}/users/me', verify=True)
+response = requests.get(f'{URL}/fruits', verify=True)
 print(response.status_code)
 
 
