@@ -74,13 +74,13 @@ The material has been prepared based on the [Outline by the GFU](https://www.gfu
 
 * [Docker Documentation](https://docs.docker.com)
 * [Writing Dockerfiles for Python web apps](https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d)
-* [Docker tutorial on Katacode](https://www.katacoda.com/courses/docker)
 * [Play with Docker](https://training.play-with-docker.com/)
 
 ### Data Analysis
 
-pandas goto space
-python plot gallery
+* [pandas goto space](https://krother.github.io/pandas_go_to_space/) - pandas tutorial
+* [matplotlib gallery](https://matplotlib.org/stable/gallery/index.html) - plots and code
+* [seaborn gallery](https://seaborn.pydata.org/examples/index.html) - even better plots and code
 * [pandas example](pandas_example/) - to be executed with Jupyter Notebook
 
 
